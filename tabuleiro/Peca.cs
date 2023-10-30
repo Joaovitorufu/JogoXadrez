@@ -45,5 +45,7 @@ namespace tabuleiro
         }
 
         public abstract bool[,] movimentosPossiveis();
+
+        
     }
 }
