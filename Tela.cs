@@ -129,6 +129,7 @@ namespace xadrez_console
             string s = Console.ReadLine();
             int linha = int.Parse(s[1] + "");
             char coluna = s[0];
+          
             return new PosicaoXadrez(coluna,linha);
         }
     }

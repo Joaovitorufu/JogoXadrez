@@ -64,7 +64,7 @@ namespace xadrez_console.xadrez
                 pos.Coluna -= 1;
             }
             //diagonal direita superior
-            pos.definirValores(Posicao.Linha + 1, Posicao.Coluna - 1);
+            pos.definirValores(Posicao.Linha - 1, Posicao.Coluna + 1);
             while (Tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.Linha, pos.Coluna] = true;
